@@ -13,7 +13,7 @@ Now focused on getting ML models out of notebooks and into deployed environments
 - Training CNNs and exporting to ONNX  
 - Getting models to actually run on-device  
 - Latency measurement and debugging real pipelines  
-- Python for tooling, C++ for runtime control  
+- Python for ML tooling and system integration  
 - Calibration, thresholds, and failure handling  
 
 ---
@@ -41,7 +41,7 @@ Small self-contained project demonstrating the full edge workflow.
 - Train MobileNetV2  
 - Export to ONNX  
 - Run inference on Raspberry Pi  
-- Control GPIO from model output  
+- Basic hardware interaction from model output  
 
 **Repo:** `PiEdge_EduKit`
 
@@ -61,4 +61,4 @@ CLI tool for structured project ideation using multiple agents.
 
 ## Tech
 
-Python · PyTorch · ONNX · Linux · Raspberry Pi · Hailo · Git · C++ · REST APIs
+Python · PyTorch · ONNX · Linux · Raspberry Pi · Hailo · Git · REST APIs
