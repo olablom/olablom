@@ -1,71 +1,64 @@
-Ola Blom
+# Ola Blom
 
-AI & Edge Systems Engineer
-Background in industrial automation, embedded systems, and real-world ML deployment.
+I work with practical machine learning systems that run on real hardware.
 
-I build machine learning systems designed to run outside the lab — from data capture and training to edge deployment, latency validation, and hardware integration.
+Background in industrial automation, embedded systems, and installation work.
+Now focused on getting ML models out of notebooks and into deployed environments.
 
-Focus Areas
+---
 
-Embedded vision & Edge AI (Raspberry Pi + accelerators)
+## What I work with
 
-CNN pipelines with ONNX export and hardware compilation
+- Edge AI on Raspberry Pi + accelerators
+- Training CNNs and exporting to ONNX
+- Getting models to actually run on-device
+- Latency measurement and debugging real pipelines
+- Python for tooling, C++ for runtime control
+- Calibration, thresholds, and failure handling
 
-Confidence-based accept/reject logic for production use
+---
 
-Latency profiling and deterministic inference behavior
+## Projects
 
-Python for ML tooling, C++ for runtime integration
+### Cutlery Sorting – Edge AI (LIA project)
 
-Debugging, calibration, and threshold tuning in deployed systems
+Built an embedded vision system for sorting cutlery.
 
-Industrial background in automation, control systems, and technical installations combined with modern ML development.
+- Raspberry Pi 5 + Hailo-8
+- Global shutter camera + controlled lighting
+- ONNX → compiled runtime model
+- Accept / reject logic based on confidence
+- Measured latency and tuned behavior on-device
 
-Selected Projects
+Repo: `cutlery-classifier-mvp`
 
-Edge AI Cutlery Sorting (Industrial MVP)
-Embedded vision system developed during LIA for automated cutlery sorting.
+---
 
-Raspberry Pi 5 + Hailo-8
+### PiEdge EduKit
 
-Global shutter camera + custom lighting
+Small self-contained project to demonstrate the full edge workflow.
 
-CNN inference pipeline (ONNX → HEF)
+- Train MobileNetV2
+- Export to ONNX
+- Run inference on Raspberry Pi
+- Control GPIO from model output
 
-Confidence-driven decision logic
+Repo: `PiEdge_EduKit`
 
-Real-time latency benchmarking
+---
 
-Production-style calibration & error handling
+### AI Project Advisor
 
-→ cutlery-classifier-mvp
+CLI tool for structured project ideation using multiple agents.
 
-PiEdge EduKit
-Self-contained edge ML learning module demonstrating full deployment workflow.
+- Deterministic flow (no magic)
+- YAML/JSON logging
+- Human-in-the-loop usage
 
-Train MobileNetV2
+Repo: `ai-project-advisor`
 
-Export to ONNX
+---
 
-Measure inference latency on device
+## Tech I use
 
-Simple GPIO actuation from model output
-
-→ PiEdge_EduKit
-
-AI Project Advisor
-CLI-based multi-agent system for structured AI project ideation.
-
-Deterministic agent orchestration
-
-Persona-driven workflows
-
-YAML/JSON audit trail
-
-Human-in-the-loop design
-
-→ ai-project-advisor
-
-Tech
-
-Python • PyTorch • ONNX • Embedded Linux • Raspberry Pi • Hailo • CNNs • REST APIs • Git • C++ • Hardware Integration
+Python, PyTorch, ONNX, Linux, Raspberry Pi, Hailo, Git, C++, REST APIs
