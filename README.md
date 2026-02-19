@@ -1,72 +1,71 @@
-# Ola Blom
+Ola Blom
 
-AI & Edge Systems Engineer with a background in industrial automation and embedded systems.
+AI & Edge Systems Engineer
+Background in industrial automation, embedded systems, and real-world ML deployment.
 
-I build practical machine learning systems that run in real environments - from data collection and model training to edge deployment, latency measurement, and hardware integration.
+I build machine learning systems designed to run outside the lab — from data capture and training to edge deployment, latency validation, and hardware integration.
 
-My work focuses on production-style ML pipelines with deterministic behavior, confidence handling, and tight hardware coupling.
+Focus Areas
 
-## Current focus
+Embedded vision & Edge AI (Raspberry Pi + accelerators)
 
-- Embedded vision and Edge AI (Raspberry Pi + accelerators)
-- CNN-based pipelines with ONNX export and hardware compilation
-- Confidence-based accept/reject logic
-- Latency profiling and deterministic inference flows
-- Python for ML tooling and C++ for runtime integration
-- Production-style debugging, calibration, and threshold tuning
+CNN pipelines with ONNX export and hardware compilation
 
-Background in industrial automation, control systems, and technical installation, combined with modern ML development.
+Confidence-based accept/reject logic for production use
 
----
+Latency profiling and deterministic inference behavior
 
-## Selected projects
+Python for ML tooling, C++ for runtime integration
 
-### Edge AI Cutlery Sorting (industrial MVP)
+Debugging, calibration, and threshold tuning in deployed systems
 
-Embedded computer vision system for automated cutlery sorting (LIA project).
+Industrial background in automation, control systems, and technical installations combined with modern ML development.
 
-- Raspberry Pi 5 + Hailo-8
-- Global shutter camera with custom LED lighting
-- CNN inference pipeline (ONNX to HEF)
-- Confidence-based accept/reject logic
-- Latency benchmarking
-- Calibration and production-style error handling
+Selected Projects
 
-Focus: real-time edge inference and full system integration.
+Edge AI Cutlery Sorting (Industrial MVP)
+Embedded vision system developed during LIA for automated cutlery sorting.
 
-Repo: cutlery-classifier-mvp
+Raspberry Pi 5 + Hailo-8
 
----
+Global shutter camera + custom lighting
 
-### PiEdge EduKit
+CNN inference pipeline (ONNX → HEF)
 
-Self-contained edge ML micro-project focused on deployment fundamentals.
+Confidence-driven decision logic
 
-- Train MobileNetV2
-- Export to ONNX
-- Measure inference latency on Raspberry Pi
-- Simple GPIO control from model output
+Real-time latency benchmarking
 
-Built as a practical learning module for edge ML workflows.
+Production-style calibration & error handling
 
-Repo: PiEdge_EduKit
+→ cutlery-classifier-mvp
 
----
+PiEdge EduKit
+Self-contained edge ML learning module demonstrating full deployment workflow.
 
-### AI Project Advisor
+Train MobileNetV2
 
-CLI-based multi-agent system for structured project ideation.
+Export to ONNX
 
-- Deterministic agent orchestration
-- Explicit personas
-- Full YAML/JSON audit trail
-- Cost-aware design
-- Human-in-the-loop flow
+Measure inference latency on device
 
-Repo: ai-project-advisor
+Simple GPIO actuation from model output
 
----
+→ PiEdge_EduKit
 
-## Tech
+AI Project Advisor
+CLI-based multi-agent system for structured AI project ideation.
 
-Python, PyTorch, ONNX, embedded Linux, Raspberry Pi, Hailo, CNNs, REST APIs, Git, C++, hardware integration
+Deterministic agent orchestration
+
+Persona-driven workflows
+
+YAML/JSON audit trail
+
+Human-in-the-loop design
+
+→ ai-project-advisor
+
+Tech
+
+Python • PyTorch • ONNX • Embedded Linux • Raspberry Pi • Hailo • CNNs • REST APIs • Git • C++ • Hardware Integration
